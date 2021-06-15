@@ -1,0 +1,139 @@
+body
+{
+  background: linear-gradient(to bottom, #796aed, #00ff7f);
+  height: 100vh;
+}
+img
+{
+	display: block;
+	margin: 0 auto;
+	width: auto;
+}
+
+.base-form
+{
+	width:320px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #00FFF0;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: arial;
+	text-align: center;
+}
+.base-text-input
+{
+	width: 300px;
+	height: 30px;
+	background: #E3E3E3;
+	padding: 5px;
+	font-size: 120%;
+}
+
+.base-form-button
+{
+	width: 320px;
+	margin-top: 20px;
+	background:#148D95;
+	color: white;
+	opacity: 80%;
+	height: 50px;
+	border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+label
+{
+	display: block;
+    margin-top: 10px;
+    padding-bottom: 6px;
+}
+
+.inline button
+{
+    width: 320px;
+	margin-top: 18px;
+	background:#148D95;
+	color: white;
+	opacity: 80%;
+	height: 55px;
+	border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.inline input[type=text]
+{
+    width: 300px;
+	height: 42px;
+	background: #E3E3E3;
+	padding: 5px;
+	font-size: 120%;
+}
+.inline
+{
+	margin-left: 620px;
+	margin-top: 45px;
+	color: #00FFF0;
+	font-weight: bold;
+	font-size: 130%;
+	font-family: arial;
+}
+.search-results
+{
+	overflow: auto;
+	background: #E3E3E3;
+	height: 150px;
+    width: 34%;
+    margin-left: 620px;
+	margin-top: 20px;
+	border: solid #148D95;
+}
+
+a 
+{
+    color:#0024C0;
+    font-size: 22px;
+}
+
+a:hover
+{
+	color: #A7E413;
+}
+
+.chat
+{
+  background: white;
+  width:27%;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  overflow: auto;
+  padding: 10px;
+  color: #575454;
+  font-family: times new roman;
+  font-style: italic;
+  font-weight: bolder;
+  border: solid #148D95;
+  margin-bottom: 20px;
+}
+.recipient-name
+{
+	text-align: center;
+	color:#18FFE7;
+	font-size: 130%;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.chat-outgoing
+{
+	text-align: right;
+}
