@@ -7,29 +7,15 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header class="header">
-		<div class="index-logo">
-			<img src="bglogo.png">
-		</div>
-	</header>
-	<main>
-		<div class="login-form">
-			<form>
-				<p>Login</p>
-				<input type="text" name="login">
-				<p>Password</p>
-				<input type="password" name="password">
-				<br>
-				<button type="submit" formaction="search.html" formtarget="blank">Sign In</button>
-			</form>
-		</div>
-	</main>
-	<footer>
-		<div class="footer">
-			<p>
-				Super chat for super chatters
-			</p>
-		</div>
-	</footer>
+		<img src="bglogo.png">
+	<div class="base-form">
+		<form>
+			<label for="login">Login</label>
+				<input class="base-text-input" type="text" name="login" id="login">
+				<label for="password">Password</label>
+				<input class="base-text-input" type="password" name="password" id="password">
+				<button class="base-form-button" type="submit" formaction="search.html" formtarget="blank">sign in</button>
+		</form>
+	</div>
 </body>
 </html>
