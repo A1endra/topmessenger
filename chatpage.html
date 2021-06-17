@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Chat</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<img src="bglogo.png">
-	<p class="recipient-name">Recipient name</p>
-			<div class="chat">
-			<div class="chat-incoming">
+    <header class="main-header">
+        <nav class="main-navigation">
+            <div><a href="index.html">Login</a></div>
+            <div><a href="search.html">Search</a></div>
+            <div><a href="#">About us</a></div>
+        </nav>
+    </header>
+    <div id="app">
+        <p class="recipient-name">Recipient name</p>
+        <div class="chat">
+            <div class="incoming-message">
                 <p>Hello. How are you today?</p>
-			</div>
-			<div class="chat-outgoing">
-				<p>Hello! Im Fine! Thanks for asking)</p>
-				<p>What are u doing now?</p>
-			</div>
-			</div>
-			<div class="base-form">
-			<form>
-				<input class="base-text-input" type="text" name="new-message" placeholder="type your message">
-				<button class="base-form-button" type="submit">Send</button>
-			</form>
-		</div>
+            </div>
+            <div class="outgoing-message">
+                <p>Hello! Im Fine! Thanks for asking)</p>
+                <p>What are u doing now?</p>
+            </div>
+        </div>
+        <form class="base-form">
+            <input class="base-text-input" type="text" name="new-message" placeholder="type your message">
+            <button class="base-form-button" type="submit">Send</button>
+        </form>
 </body>
+
 </html>
