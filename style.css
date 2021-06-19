@@ -4,18 +4,12 @@ body {
     font-family: arial;
     overflow: hidden;
     margin: 0;
-}
-
-.main-navigation a {
     color: #0024C0;
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: bold;
-
+    font-weight: bolder;
 }
 
-a:hover {
-    color: #00ff7f;
+.main-navigation a:hover {
+    background-color: #00ff7f;
 }
 
 .main-navigation {
@@ -24,29 +18,20 @@ a:hover {
     justify-content: start;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 30px;
     margin-left: 25vw;
-}
-
-.main-navigation div {
-    width: 200px;
-    min-height: 50px;
+    height: 60px;
 }
 
 .logo {
-    margin-right: auto;
-    margin-left: auto;
-    width: 33%;
     margin-bottom: 10px;
     margin-top: 200px;
+    margin-left: 50px;
 }
 
 .base-form {
     display: flex;
     width: 700px;
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
     flex-direction: column;
     margin-top: 20px;
     color: #00FFF0;
@@ -76,6 +61,9 @@ label {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .base-text-input {
@@ -90,55 +78,51 @@ label {
 
 .search-form {
     display: flex;
-    width: 750px;
     margin-top: 200px;
     color: #00FFF0;
     font-weight: bold;
-    font-size: 130%;
+    font-size: 20px;
     font-family: arial;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 95px;
 }
 
 .search-results {
     overflow: auto;
-    background: #E3E3E3;
-    height: 150px;
-    width: 34%;
-    margin-left: 620px;
+    height: 200px;
+    width: 620px;
     margin-top: 30px;
     border: solid #148D95;
     display: flex;
-    justify-content: center;
     font-size: 20px;
+    margin-left: 80px;
+    background: #A7E413;
+    opacity: 90%;
+    overflow-x: hidden;
 }
 
 .search-results a {
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    padding-right: 420px;
+    text-align: left;
 }
 
 .chat {
-    background: white;
-    width: 27%;
+    background: rgb(255, 255, 255, 0.5);
+    width: 550px;
     height: 150px;
     font-size: 17px;
     overflow: auto;
-    padding: 10px;
+    padding: 20px;
     color: #575454;
-    font-family: times new roman;
-    font-style: italic;
     font-weight: bolder;
     border: solid #148D95;
     margin-bottom: 20px;
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    opacity: 90%;
     margin-top: 50px;
+    flex-direction: column;
+    font-weight: 600;
 }
 
 .recipient-name {
@@ -153,7 +137,17 @@ label {
 .outgoing-message {
     text-align: right;
     margin-left: 62px;
-    margin-top: 20px;
+    margin-top: 40px;
+    background: rgb(167, 228, 19, 0.5);
+    border-radius: 10px;
+    padding-right: 10px;
+
+
+}
+.incoming-message {
+    background: rgb(24, 255, 231, 0.5);
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .search-form input {
@@ -165,6 +159,7 @@ label {
 
 .search-form label {
     margin-top: 32px;
+    padding-right: 20px;
 }
 
 .main-header {
@@ -176,3 +171,72 @@ label {
     opacity: 90%;
 }
 
+.container {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 100vh;
+}
+
+.navigation-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100%;
+    background-color: #2DFAD6;
+    color: #0024C0;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.main-footer {
+
+    background-color: #A7E413;
+    opacity: 90%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+}
+
+.search-results a:hover {
+    background: #00ff7f;
+}
+
+.search-results a {
+    display: block;
+    height: 50px;
+    background: #A7E413;
+    width: 598px;
+    height: 30%;
+    padding-top: 5px;
+    padding-left: 15px;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.about-us{
+ margin-top: 200px;
+ font-weight: 600;
+ font-size: 15px;
+ line-height: 22px;
+ background: rgb(167, 228, 19, 0.5);
+ padding: 30px;
+}
+ h1{
+    color: #18FFE7;
+ }
